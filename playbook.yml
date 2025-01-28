@@ -1,0 +1,9 @@
+---
+- name: Creazione di un file remoto
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Creare un file remoto
+      file:
+        path: /tmp/nuovo_file.txt
+        state: touch
