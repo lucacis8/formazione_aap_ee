@@ -1,0 +1,12 @@
+---
+- name: Verifica della versione custom di Python
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Stampare la versione di Python
+      command: python3 --version
+      register: python_version
+
+    - name: Mostrare la versione di Python
+      debug:
+        msg: "Versione di Python in uso: {{ python_version.stdout }}"
