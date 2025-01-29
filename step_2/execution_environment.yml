@@ -1,0 +1,8 @@
+---
+version: 1
+build_arg_defaults:
+  EE_BASE_IMAGE: "registry.access.redhat.com/ubi9/python-39"
+
+dependencies:
+  system: bindep.txt
+  python: requirements.txt
