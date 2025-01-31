@@ -4,7 +4,7 @@ In questo step, abbiamo creato un nuovo Execution Environment (EE) personalizzat
 
 ## Struttura dei file utilizzati
 
-- **`execution-environment.yml`**: Definisce la configurazione dell'EE, specificando l'immagine di base e le dipendenze.
+- **`execution_environment.yml`**: Definisce la configurazione dell'EE, specificando l'immagine di base e le dipendenze.
 - **`bindep.txt`**: Contiene le dipendenze di sistema necessarie per installare la versione desiderata di Python.
 - **`requirements.txt`**: Elenca i pacchetti Python richiesti.
 - **`playbook.yml`**: Esegue il playbook per stampare la versione di Python in uso all'interno dell'EE.
@@ -13,7 +13,7 @@ In questo step, abbiamo creato un nuovo Execution Environment (EE) personalizzat
 
 ## Configurazione dell'Execution Environment
 
-### **`execution-environment.yml`**
+### **`execution_environment.yml`**
 ```yaml
 ---
 version: 1
