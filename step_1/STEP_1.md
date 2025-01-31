@@ -10,7 +10,7 @@ Creare un nuovo Execution Environment che includa una collection a scelta da Ans
 
 ## Struttura dei file utilizzati
 
-### 1. `execution-environment.yml`
+### 1. `execution_environment.yml`
 
 Questo file specifica le dipendenze necessarie per costruire l'Execution Environment. In questo caso, richiama un file separato `requirements.yml` per definire le collections.
 
